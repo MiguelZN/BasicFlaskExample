@@ -11,9 +11,9 @@ def index():
 def hello():
     return 'Hello, World'
 
-@app.route('/claudia')
-def claudia():
-    return 'happy hoyan'
+@app.route('/other')
+def other():
+    return 'other'
 
 
 
